@@ -41,10 +41,10 @@ namespace NotAlone_v3
             _groups.Add(first);
             _groups.Add(second);
             first.MenuTiles.Add(new Data.MenuTiles { Title = "New event", Description = "Create a new event", HorizontalSize = 2, VerticalSize = 2, Image = "/Assets/Q/2.png" });
-            first.MenuTiles.Add(new Data.MenuTiles { Title = "All events", Description = "...", HorizontalSize = 1, VerticalSize = 1, Image = "/Assets/Q/4.png" });
-            second.MenuTiles.Add(new Data.MenuTiles { Title = "Me", Description = "My account", HorizontalSize = 2, VerticalSize = 2, Image = "/Assets/Logo.png" });
-            second.MenuTiles.Add(new Data.MenuTiles { Title = "Last events", Description = "Where I was", HorizontalSize = 1, VerticalSize = 1, Image = "/Assets/Q/1.png" });
-            second.MenuTiles.Add(new Data.MenuTiles { Title = "Upcoming events", Description = "Where I will be", HorizontalSize = 1, VerticalSize = 1, Image = "/Assets/Logo.png" });
+            first.MenuTiles.Add(new Data.MenuTiles { Title = "All events", Description = "...", HorizontalSize = 1, VerticalSize = 1, Image = "/Assets/Q/3.png" });
+            second.MenuTiles.Add(new Data.MenuTiles { Title = "Me", Description = "My account", HorizontalSize = 2, VerticalSize = 2, Image = "/Assets/Q/1.png" });
+            second.MenuTiles.Add(new Data.MenuTiles { Title = "Last events", Description = "Where I was", HorizontalSize = 1, VerticalSize = 1, Image = "/Assets/Q/6.png" });
+            second.MenuTiles.Add(new Data.MenuTiles { Title = "Upcoming events", Description = "Where I will be", HorizontalSize = 1, VerticalSize = 1, Image = "/Assets/Q/7.png" });
             cvsMain.Source = _groups;
             gvZoomedOut.ItemsSource = cvsMain.View.CollectionGroups;
         }

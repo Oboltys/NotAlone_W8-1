@@ -80,8 +80,7 @@ namespace NotAlone_v3.Views
         /// сеанса. Это значение будет равно NULL при первом посещении страницы.</param>
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
-            RefreshTodoItems();
-            
+            RefreshTodoItems();   
         }
 
         
@@ -94,6 +93,18 @@ namespace NotAlone_v3.Views
         /// <param name="pageState">Пустой словарь, заполняемый сериализуемым состоянием.</param>
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
+        }
+
+        private void itemGridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            //(Application.Current as App).nameForInfo = this.itemGridView.SelectedItems.ToString();
+            //this.Frame.Navigate(typeof(Views.EventInfoPage));
+        }
+
+        private void itemListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            //(Application.Current as App).nameForInfo = this.itemGridView.SelectedItems.ToString();
+            //this.Frame.Navigate(typeof(Views.EventInfoPage));
         }
     }
 }
