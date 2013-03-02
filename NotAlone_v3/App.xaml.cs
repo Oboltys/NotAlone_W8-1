@@ -25,6 +25,7 @@ namespace NotAlone_v3
     /// </summary>
     sealed partial class App : Application
     {
+        //public string nameForInfo { get; set; }
         public static MobileServiceClient MobileService = new MobileServiceClient("https://notalone.azure-mobile.net/", "LSaEeYfzreUODwYBHSMoPTLcXpgJMC60");
         /// <summary>
         /// Инициализирует одноэлементный объект приложения. Это первая строка разрабатываемого кода
