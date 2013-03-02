@@ -24,6 +24,12 @@ namespace NotAlone_v3.Views
         public EventInfoPage()
         {
             this.InitializeComponent();
+
+            //string nameForInfo = (Application.Current as App).nameForInfo;
+            //if (nameForInfo != null)
+            //{
+            //    pageTitle.Text =nameForInfo;
+            //}
         }
 
         /// <summary>
@@ -37,6 +43,7 @@ namespace NotAlone_v3.Views
         /// сеанса. Это значение будет равно NULL при первом посещении страницы.</param>
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
+            
         }
 
         /// <summary>
